@@ -9,9 +9,9 @@ const Char = (props) => {
         margin: '5px'
     }
 
-    return(
+    return (
         <div style={style}>
-            <p onClick={props.del} >{props.val}</p>
+            <p onClick={props.del}>{props.val}</p>
         </div>
     );
 }
